@@ -1,9 +1,5 @@
-//variables
-
 let quote = document.querySelector("p");
 let button = document.querySelector("button");
-
-//Logic
 
 let quotations = [
   "Life doesn’t ask if you’re ready; it begins, and you learn while living.",
@@ -23,9 +19,33 @@ let quotations = [
   "Keep moving forward.",
 ];
 
+const colors = [
+  "#f6d365",
+  "#fda085",
+  "#a1c4fd",
+  "#c2e9fb",
+  "#d4fc79",
+  "#96e6a1",
+];
+
+// Single function to change quote + background
 const generateQuote = () => {
-  let randomQuotations = Math.floor(Math.random() * quotations.length);
-  quote.innerHTML = quotations[randomQuotations];
+  // Fade out
+  quote.style.opacity = 0;
+
+  setTimeout(() => {
+    // Pick random quote
+    let randomIndex = Math.floor(Math.random() * quotations.length);
+    quote.textContent = quotations[randomIndex];
+
+    // Pick random background color
+    document.body.style.backgroundColor =
+      colors[Math.floor(Math.random() * colors.length)];
+
+    // Fade in
+    quote.style.opacity = 1;
+  }, 500); // matches CSS transition
 };
 
+// Only **one listener** is needed
 button.addEventListener("click", generateQuote);

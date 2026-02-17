@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
 }
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
 body {
   background: #cc9fb3;
   background: radial-gradient(
@@ -9,6 +10,7 @@ body {
     rgba(204, 159, 179, 1) 9%,
     rgba(148, 187, 233, 1) 100%
   );
+  font-family: "Playfair Display", serif;
 }
 .container {
   display: flex;
@@ -37,4 +39,8 @@ button {
 button:hover {
   background-color: #7786b6;
   transform: translateY(-2px);
+}
+
+p {
+  transition: opacity 0.5s ease-in-out;
 }
