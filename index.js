@@ -19,19 +19,25 @@ let quotations = [
   "Keep moving forward.",
 ];
 
-let colors = ["#f6d365", "#fda085", "#a1c4fd", "#c2e9fb", "#d4fc79", "#96e6a1"];
+let colors = ["#f5c7b8", "#d9b8f5", "#a8d5ba", "#c2d9f5", "#f5e2b8", "#e0b8b8"];
 
 const generateQuote = () => {
-  quote.style.opacity = 0;
+  quote.style.opacity = 0; // fade out
 
   setTimeout(() => {
+    // Change the quote text
     let randomIndex = Math.floor(Math.random() * quotations.length);
     quote.textContent = quotations[randomIndex];
 
-    let randomColor = colors[Math.floor(Math.random() * colors.length)];
-    document.body.style.backgroundColor = randomColor;
+    // Random background color for body
+    let randomBodyColor = colors[Math.floor(Math.random() * colors.length)];
+    document.body.style.backgroundColor = randomBodyColor;
 
-    quote.style.opacity = 1;
+    // Random background color for quote box (so it looks nice, slightly lighter/darker)
+    let randomQuoteColor = colors[Math.floor(Math.random() * colors.length)];
+    quote.parentElement.style.backgroundColor = randomQuoteColor;
+
+    quote.style.opacity = 1; // fade in
   }, 500);
 };
 

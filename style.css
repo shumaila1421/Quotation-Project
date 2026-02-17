@@ -24,7 +24,9 @@ body {
   font-size: 20px;
   border-radius: 25px;
   box-shadow: 5px -3px 14px 0px rgba(255, 192, 192, 0.7);
+  transition: background-color 0.8s ease;
 }
+
 button {
   font-size: medium;
   margin-top: 20px;
