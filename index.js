@@ -34,18 +34,16 @@ const generateQuote = () => {
   quote.style.opacity = 0;
 
   setTimeout(() => {
-    // Pick random quote
+    // Change quote
     let randomIndex = Math.floor(Math.random() * quotations.length);
     quote.textContent = quotations[randomIndex];
 
-    // Pick random background color
-    document.body.style.backgroundColor =
-      colors[Math.floor(Math.random() * colors.length)];
-
     // Fade in
     quote.style.opacity = 1;
-  }, 500); // matches CSS transition
+  }, 500); // must match CSS transition duration
 };
+
+button.addEventListener("click", generateQuote);
 
 // Only **one listener** is needed
 button.addEventListener("click", generateQuote);
