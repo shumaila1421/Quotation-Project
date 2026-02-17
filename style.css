@@ -2,16 +2,12 @@
   padding: 0;
   margin: 0;
 }
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
+
 body {
-  background: #cc9fb3;
-  background: radial-gradient(
-    circle,
-    rgba(204, 159, 179, 1) 9%,
-    rgba(148, 187, 233, 1) 100%
-  );
+  background-color: #cc9fb3;
   font-family: "Playfair Display", serif;
 }
+
 .container {
   display: flex;
   justify-content: center;
