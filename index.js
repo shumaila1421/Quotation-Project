@@ -4,6 +4,10 @@ let author = document.querySelector(".author");
 
 let quotations = [
   {
+    text: "Life is what happens when you're busy making other plans.",
+    author: "John Lennon",
+  },
+  {
     text: "Life doesn’t ask if you’re ready; it begins, and you learn while living.",
     author: "Unknown",
   },
