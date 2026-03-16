@@ -8,6 +8,10 @@ let quotations = [
     author: "John Lennon",
   },
   {
+    text: "Life isn’t about finding yourself. Life is about creating yourself.",
+    author: "George Bernard Shaw",
+  },
+  {
     text: "Life doesn’t ask if you’re ready; it begins, and you learn while living.",
     author: "Unknown",
   },
