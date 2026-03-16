@@ -36,6 +36,10 @@ let quotations = [
     author: "Unknown",
   },
   {
+    text: "Turn your wounds into wisdom.",
+    author: "Oprah Winfrey",
+  },
+  {
     text: "Life becomes lighter when you stop carrying what was never yours to hold.",
     author: "Anonymous",
   },
