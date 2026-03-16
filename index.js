@@ -16,6 +16,10 @@ let quotations = [
     author: "Unknown",
   },
   {
+    text: "Time heals what reason cannot.",
+    author: "Seneca",
+  },
+  {
     text: "Some days are meant to teach you, not please you.",
     author: "Unknown",
   },
