@@ -24,6 +24,10 @@ let quotations = [
     author: "Unknown",
   },
   {
+    text: "Happiness depends upon ourselves.",
+    author: "Aristotle",
+  },
+  {
     text: "Life is not about having everything, but about finding meaning in what you have.",
     author: "Anonymous",
   },
