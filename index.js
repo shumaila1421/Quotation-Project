@@ -40,6 +40,10 @@ let quotations = [
     author: "Oprah Winfrey",
   },
   {
+    text: "It does not matter how slowly you go as long as you do not stop.",
+    author: "Confucius",
+  },
+  {
     text: "Life becomes lighter when you stop carrying what was never yours to hold.",
     author: "Anonymous",
   },
