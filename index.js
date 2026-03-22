@@ -54,7 +54,7 @@ let quotations = [
   },
   {
     text: "Life tests you to shape you, not to break you.",
-    author: "Anonymous",
+    author: "Unknown",
   },
   {
     text: "Sometimes life pauses, not to stop you, but to redirect you.",
