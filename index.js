@@ -45,7 +45,7 @@ let quotations = [
   },
   {
     text: "Life becomes lighter when you stop carrying what was never yours to hold.",
-    author: "Anonymous",
+    author: "Unknown",
   },
   { text: "Time will heal everything.", author: "Unknown" },
   {
